@@ -7,7 +7,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   >
-  <title>Positioning</title>
+  <title>Curs08 Ex04</title>
   <link
     href="css/style.css"
     rel="stylesheet"
@@ -19,7 +19,8 @@
 </head>
 
 <body>
-  <nav>
+
+  <nav class="nav-top">
     <a
       href="#water"
       title="Apa"
@@ -37,10 +38,11 @@
     class="container"
     id="water"
   >
+    <span class="legend">Water</span>
     <p>
       Apa este formata din doi atomi de hidrogen
       si o molecula de oxigen.<br>
-      Formula sa chimica este H2O.
+      Formula sa chimica este H<span class="sub">2</span>O.
     </p>
   </div>
 
@@ -113,11 +115,12 @@
     class="container"
     id="acid"
   >
+    <span class="legend">Acid</span>
     <p>
       Acidul sulfuric cunoscut ca si vitriol, este format din
       2 atomi de hidrogen, 4 atomi de oxigen si o
       molecula de sulf<br>
-      Formula sa chimica este H2SO4.
+      Formula sa chimica este H<span class="sub">2</span>SO<span class="sub">4</span>.
     </p>
   </div>
 
@@ -190,12 +193,26 @@
     class="container"
     id="ozone"
   >
+    <span class="legend">Ozone</span>
     <p>
       Ozonul este o molecula formata din 3 atomi de oxigen.<br>
-      Formula sa chimica este: O3.
+      Formula sa chimica este: O<span class="sub">3</span>.
     </p>
   </div>
-
+  <nav class="nav-bottom">
+    <a
+      href="#water"
+      title="Apa"
+    >Apa</a>
+    <a
+      href="#acid"
+      title="Acid"
+    >Acid Sulfuric</a>
+    <a
+      href="#ozone"
+      title="Ozon"
+    >Ozon</a>
+  </nav>
   <div
     class="pixeltab-host"
     id="html01-08-04"
