@@ -111,4 +111,12 @@
   body {
     font-family: 'Roboto', sans-serif;
   }
+
+  .header-primary{
+text-transform: uppercase;
+  }
+
+  .footer {
+    text-transform: uppercase;
+  }
   
