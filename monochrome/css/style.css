@@ -1,214 +1,214 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-MediumItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-MediumItalic.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
-    url('../fonts/Roboto-Bold.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-BoldItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-BoldItalic.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
-    url('../fonts/Roboto-Regular.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-LightItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-LightItalic.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-LightItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
-    url('../fonts/Roboto-Thin.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Thin.woff2") format("woff2"),
+    url("../fonts/Roboto-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
-    url('../fonts/Roboto-Italic.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Italic.woff2") format("woff2"),
+    url("../fonts/Roboto-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
-    url('../fonts/Roboto-Medium.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
+    url("../fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
-    url('../fonts/Roboto-Black.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.woff2") format("woff2"),
+    url("../fonts/Roboto-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-Light.woff2') format('woff2'),
-    url('../fonts/Roboto-Light.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"),
+    url("../fonts/Roboto-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-BlackItalic.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-BlackItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto-ThinItalic.woff2') format('woff2'),
-    url('../fonts/Roboto-ThinItalic.woff') format('woff');
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-ThinItalic.woff2") format("woff2"),
+    url("../fonts/Roboto-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-ExtraBold.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-ExtraBold.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-ExtraBold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BoldItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Black.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-Black.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Black.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-BlackItalic.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-ExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-Italic.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Italic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-Medium.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Medium.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-SemiBold.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-SemiBold.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-SemiBold.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-MediumItalic.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-MediumItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
-    url('../fonts/PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/PlayfairDisplay-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -216,6 +216,10 @@
 
 body {
   margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 .homepage-bar {
   display: block;
@@ -228,13 +232,10 @@ body {
 }
 
 .main-navigation ul {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   justify-content: space-between;
-  max-width: 1356px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .main-navigation li {
@@ -245,9 +246,10 @@ body {
   display: inline-block;
   color: #e8e8e8;
   text-decoration: none;
-  padding: 17px;
   font-size: 19px;
-  font-family: 'Playfair Display', serif;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-family: "Playfair Display", serif;
   text-transform: uppercase;
 }
 
@@ -258,8 +260,6 @@ body {
 .top-bar {
   display: flex;
   justify-content: space-between;
-  max-width: 1356px;
-  margin: 0 auto;
 }
 
 .top-bar a {
@@ -269,8 +269,8 @@ body {
   padding: 15px;
 }
 
-.top-bar a[href^='tel'] {
-  font-family: 'Playfair Display', serif;
+.top-bar a[href^="tel"] {
+  font-family: "Playfair Display", serif;
   margin-left: 30px;
 }
 
@@ -278,7 +278,7 @@ body {
   display: flex;
 }
 
-.top-bar-right input[type='text'] {
+.top-bar-right input[type="text"] {
   border: 1px solid #cccccc;
   height: 37px;
   width: 202px;
@@ -303,9 +303,258 @@ body {
   margin-bottom: -71px;
   position: relative;
   padding-top: 20px;
-  max-width: 1076px;
+  padding-left: 133px;
+  padding-right: 133px;
 }
 
 .header-homepage .top-bar-left a {
   color: #ffffff;
+}
+
+.container {
+  max-width: 1356px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.section-separator {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.home-catalog-preview h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+}
+
+.product-tiles {
+  display: flex;
+  padding-left: 0px;
+  justify-content: space-between;
+  column-gap: 12px;
+}
+
+.product-tile {
+  text-align: center;
+  font-size: 22px;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 46px;
+}
+
+.product-tile-image {
+  position: relative;
+}
+
+.product-tile-badge {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  border: none;
+  font-size: 40px;
+}
+
+.product-tile h3 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.product-tiles li {
+  list-style: none;
+}
+
+.product-tile-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 21px;
+}
+
+.product-tile-title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.product-tile-title a {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+
+.home-content {
+  display: flex;
+  padding-top: 74px;
+  padding-bottom: 151px;
+}
+
+.home-content-aside {
+  padding-right: 139px;
+}
+
+.home-content-section h2 {
+  font-size: 43px;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.home-content-section p {
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  color: #2b2b2b;
+  font-weight: normal;
+  margin-bottom: 68px;
+}
+
+.home-content-section p:last-child {
+  margin-bottom: 0;
+}
+
+.catalog-ctas {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.catalog-ctas a {
+  display: inline-block;
+  border: 1px solid #2b2b2b;
+  color: #2b2b2b;
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #e8e8e8;
+  padding-top: 11px;
+}
+
+.footer-inner {
+  display: flex;
+  color: #2b2b2b;
+}
+
+.footer-contact {
+  padding-top: 40px;
+  width: 25%;
+}
+
+.footer-contact a {
+  color: #2b2b2b;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+}
+
+.footer-nav {
+  width: 50%;
+  padding-top: 40px;
+  display: flex;
+}
+
+.footer-nav ul{
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+.footer-nav ul li{
+  list-style: none;
+}
+
+.footer-nav ul li a {
+  color: #2b2b2b;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+}
+
+.footer-connect {
+  width: 25%;
+  padding-top: 34px;
+}
+
+.footer-newsletter .email{
+  color: #2b2b2b;
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  display: block;
+}
+
+.footer-newsletter .email-address{
+  color: #2b2b2b;
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
+  font-style: italic;
+  margin-bottom: 15px;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  padding-left: 21px;
+  padding-right: 240px;
+}
+
+.footer-newsletter .label-subscribe{
+  color: #2b2b2b;
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
+  padding-bottom: 15px;
+}
+
+.footer-newsletter .label-subscribe a{
+  color: #2b2b2b;
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
+}
+
+.footer-newsletter .submit{
+  color: #2b2b2b;
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
+  margin-top: 13px;
+  margin-bottom: 23px;
+  padding: 5px 15px;
+}
+
+.footer-social{
+  display: flex;
+  ;
+}
+
+.footer-social a{
+  color: #2b2b2b;
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.home-catalog-preview img:hover{
+  border: 1px solid blue;
+}
+
+.home-catalog-preview a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer-contact a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer-nav a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.footer-connect .submit:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid black;
 }

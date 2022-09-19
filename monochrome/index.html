@@ -1,129 +1,538 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Proiect Practic</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta
-    http-equiv="X-UA-Compatible"
-    content="IE=edge"
-  >
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <link
-    href="css/style.css"
-    rel="stylesheet"
-  >
-  <title>Proiect Practic</title>
-</head>
-
-<body>
-  <header class="header header-homepage">
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <a
-          href="https://youtube.com"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-youtube"></i>
-        </a>
-        <a
-          href="https://twitter.com"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a
-          href="https://facebook.com"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-facebook-f"></i>
-        </a>
-        <a
-          href="https://instagram.com"
-          target="blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="tel:+44 (0)10 2345 6789">CALL US +44 (0)10 2345 6789</a>
-      </div>
-      <div class="top-bar-right">
-        <form action="search">
-          <input
-            type="text"
-            name="querry"
-            placeholder="Search"
+  <body>
+    <header class="header header-homepage">
+      <div class="top-bar container">
+        <div class="top-bar-left">
+          <a
+            href="https://youtube.com"
+            target="blank"
+            rel="noopener noreferrer"
           >
-          <button type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </form>
-        <a
-          href="/"
-          title="My Account"
-        >
-          <i class="fa-regular fa-user"></i>
-        </a>
-        <a
-          href="/"
-          title="Wishlist"
-        >
-          <i class="fa-regular fa-heart"></i>
-        </a>
-        <a
-          href="/"
-          title="Shopping Bag"
-        >
-          <i class="fa-solid fa-bag-shopping"></i>
-        </a>
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a
+            href="https://twitter.com"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="https://facebook.com"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://instagram.com"
+            target="blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="tel:+44 (0)10 2345 6789">CALL US +44 (0)10 2345 6789</a>
+        </div>
+        <div class="top-bar-right">
+          <form action="search">
+            <input type="text" name="querry" placeholder="Search" />
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <a href="/" title="My Account">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a href="/" title="Wishlist">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+          <a href="/" title="Shopping Bag">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </a>
+        </div>
       </div>
-    </div>
-    <img
-      class="homepage-bar"
-      src="images/banners/banner.png"
-      alt="brand banner monochrome"
-    >
-    <nav class="main-navigation">
-      <ul>
-        <li>
-          <a href="/">New Arrivals</a>
-        </li>
-        <li>
-          <a href="/">Brands</a>
-        </li>
-        <li>
-          <a href="/">Men's</a>
-        </li>
-        <li>
-          <a href="/">Women's</a>
-        </li>
-        <li>
-          <a href="/">Accessories</a>
-        </li>
-        <li>
-          <a href="/">Lookbook</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main class="main">
+      <img
+        class="homepage-bar"
+        src="images/banners/banner.png"
+        alt="brand banner monochrome"
+      />
+      <nav class="main-navigation">
+        <ul class="container">
+          <li>
+            <a href="/">New Arrivals</a>
+          </li>
+          <li>
+            <a href="/">Brands</a>
+          </li>
+          <li>
+            <a href="/">Men's</a>
+          </li>
+          <li>
+            <a href="/">Women's</a>
+          </li>
+          <li>
+            <a href="/">Accessories</a>
+          </li>
+          <li>
+            <a href="/">Lookbook</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home-catalog-preview container">
+        <hr class="section-separator" />
+        <h2>New Stuff</h2>
+        <ul class="product-tiles">
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Black Watch 2">
+                  <img
+                    src="images/products/ceas_negru2.png"
+                    alt="Monochrome Black Watch 2"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Black Watch 2"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
 
-  </main>
-  <footer class="footer">
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome White Watch">
+                  <img
+                    src="images/products/ceas_alb.png"
+                    alt="Monochrome White Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome White Watch"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
 
-  </footer>
-</body>
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Black Watch">
+                  <img
+                    src="images/products/ceas_negru.png"
+                    alt="Monochrome Black Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Black Watch"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
 
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome White Square Watch">
+                  <img
+                    src="images/products/ceas_alb_patrat.png"
+                    alt="Monochrome White Square Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome White Square Watch">
+                  Monochrome
+                </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="home-catalog-preview container">
+        <hr class="section-separator" />
+        <h2>Most loved</h2>
+        <ul class="product-tiles">
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome White Square Watch">
+                  <img
+                    src="images/products/ceas_alb_patrat.png"
+                    alt="Monochrome White Square Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome White Square Watch">
+                  Monochrome
+                </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Black Watch 2">
+                  <img
+                    src="images/products/ceas_negru2.png"
+                    alt="Monochrome Black Watch 2"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Black Watch 2"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Black Watch">
+                  <img
+                    src="images/products/ceas_negru.png"
+                    alt="Monochrome Black Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Black Watch"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Silver Watch">
+                  <img
+                    src="images/products/ceas_silver_negru.png"
+                    alt="Monochrome Silver Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Silver Watch"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <div class="home-content container">
+        <aside class="home-content-aside">
+          <img src="images/banners/banner2.png" alt="Home Banner Second" />
+        </aside>
+        <section class="home-content-section">
+          <h2>Watches for entrepreneurs</h2>
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing
+            pleasure and praising pain was born and I will give you a complete
+            account of the system, and expound the actual teachings of the great
+            explorer of the truth, the master-builder of human happiness. No one
+            rejects, dislikes, or avoids pleasure itself, because.
+          </p>
+          <p>
+            But I must explain to you how all this mistaken idea of denouncing
+            pleasure and praising pain was born and I will give you a complete
+            account of the system, and expound the actual teachings of the great
+            explorer of the truth, the master-builder of human happiness. No one
+            rejects, dislikes, or avoids pleasure itself, because.
+          </p>
+        </section>
+      </div>
+      <section class="home-catalog-preview container">
+        <hr class="section-separator" />
+        <h2>MEN'S</h2>
+        <ul class="product-tiles">
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Silver Watch">
+                  <img
+                    src="images/products/ceas_silver_negru.png"
+                    alt="Monochrome Silver Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Silver Watch"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Black Watch">
+                  <img
+                    src="images/products/ceas_negru.png"
+                    alt="Monochrome Black Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Black Watch"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Black Watch 5">
+                  <img
+                    src="images/products/ceas_negru5.png"
+                    alt="Monochrome Black Watch 5"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Black Watch 5"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Black Watch 2">
+                  <img
+                    src="images/products/ceas_negru2.png"
+                    alt="Monochrome Black Watch 2"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Black Watch 2"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+        </ul>
+        <div class="catalog-ctas">
+          <a href="/" title="view all">view all</a>
+        </div>
+      </section>
+      <section class="home-catalog-preview container">
+        <hr class="section-separator" />
+        <h2>WOMEN'S</h2>
+        <ul class="product-tiles">
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome White Square Watch">
+                  <img
+                    src="images/products/ceas_alb_patrat.png"
+                    alt="Monochrome White Square Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome White Square Watch">
+                  Monochrome
+                </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Black Watch 2">
+                  <img
+                    src="images/products/ceas_negru2.png"
+                    alt="Monochrome Black Watch 2"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Black Watch 2"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome White Watch">
+                  <img
+                    src="images/products/ceas_alb.png"
+                    alt="Monochrome White Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome White Watch"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+          <li>
+            <article class="product-tile">
+              <div class="product-tile-image">
+                <a href="" title="Monochrome Silver Watch">
+                  <img
+                    src="images/products/ceas_silver_negru.png"
+                    alt="Monochrome Silver Watch"
+                /></a>
+                <button class="product-tile-badge">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+              <h3 class="product-tile-title">
+                <a href="" title="Monochrome Silver Watch"> Monochrome </a>
+              </h3>
+              <div class="product-tile-pricing">$425</div>
+            </article>
+          </li>
+        </ul>
+        <div class="catalog-ctas">
+          <a href="/" title="view all">view all</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-inner container">
+        <section class="footer-contact">
+          <a href="tel:+44 (0)10 2345 6789"
+            >call us <br />+44 (0)10 2345 6789</a
+          >
+          <br />
+          <a href="email:pixellab.ro">email customer care</a>
+        </section>
+        <nav class="footer-nav">
+          <ul>
+            <li>
+              <a href="" title="style & fit advice">style & fit advice</a>
+            </li>
+
+            <li>
+              <a href="" title="faqs">faqs</a>
+            </li>
+
+            <li>
+              <a href="" title="delivery">delivery</a>
+            </li>
+
+            <li>
+              <a href="" title="exchanges & returns">exchanges & returns</a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="" title="about us">about us</a>
+            </li>
+
+            <li>
+              <a href="" title="careers">careers</a>
+            </li>
+
+            <li>
+              <a href="" title="affiliates">affiliates</a>
+            </li>
+
+            <li>
+              <a href="" title="advertising">advertising</a>
+            </li>
+          </ul>
+        </nav>
+        <section class="footer-connect">
+          <form action="subscribe" class="footer-newsletter">
+            <label for="email" class="email">sign up for our newsletter</label>
+            <br>
+            <input type="email" name="email" placeholder="Email address" class="email-address"/>
+            <br>
+            <input type="checkbox" name="subscribe" id="subscribe" />
+            <label for="subscribe" class="label-subscribe">
+              I agree with
+              <a href="/" title="Privacy Policy">Privacy Policy</a> and i want to
+              receive emails from Monochrome </label
+            ><br />
+            <button type="submit" class="submit">SUBMIT</button>
+          </form>
+          <div class="footer-social">
+            <a
+              href="https://youtube.com"
+              target="blank"
+              rel="noopener noreferrer">
+              <i class="fa-brands fa-youtube"></i></a>
+            <a
+              href="https://twitter.com"
+              target="blank"
+              rel="noopener noreferrer">
+              <i class="fa-brands fa-twitter"></i></a>
+            <a
+              href="https://facebook.com"
+              target="blank"
+              rel="noopener noreferrer">
+              <i class="fa-brands fa-facebook-f"></i></a>
+            <a
+              href="https://instagram.com"
+              target="blank"
+              rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
