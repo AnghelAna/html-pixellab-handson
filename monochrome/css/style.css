@@ -221,6 +221,11 @@ body {
 * {
   box-sizing: border-box;
 }
+
+button{
+  cursor: pointer;
+}
+
 .homepage-bar {
   display: block;
   width: 100%;
@@ -256,6 +261,7 @@ body {
 .main-navigation ul li a:hover {
   text-decoration: underline;
 }
+
 
 .top-bar {
   display: flex;
@@ -356,6 +362,12 @@ body {
   right: 20px;
   border: none;
   font-size: 40px;
+  background: none;
+  
+}
+
+.product-tile-badge:hover{
+  border: 1px solid white;
 }
 
 .product-tile h3 {
@@ -535,22 +547,22 @@ body {
 }
 
 .home-catalog-preview img:hover{
-  border: 1px solid blue;
+  border: 1px solid black;
 }
 
 .home-catalog-preview a:hover{
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .footer-contact a:hover{
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .footer-nav a:hover{
   text-decoration: underline;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .footer-connect .submit:hover{
@@ -558,3 +570,83 @@ body {
   color: white;
   border: 1px solid black;
 }
+
+/* Men's CSS code*/
+
+.home-catalog-preview-subtitle{
+  color: #2B2B2B;
+  font-size: 35px;
+  margin-left: 0px;
+  max-width: 90px;
+  margin-top: 49px;
+  margin-bottom: 0px;
+  font-family: "Playfair Display", serif;
+}
+
+.home-catalog-preview-paragraph {
+  margin-left: 0px;
+  margin-top: 22px;
+  margin-bottom: 0px;
+  color: #707070;
+  font-size: 25px;
+  font-family: "Roboto",sans-serif;
+  max-width: 895px;
+}
+
+.product-tiles-selection{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+  padding-top: 41px;
+}
+
+.filter-details {
+  background-color: white;
+  border:1px solid #CCCCCC;
+  padding-top: 12px;
+  padding-bottom: 9px;
+  padding-left: 54px;
+  padding-right: 54px;
+  font-size: 16px;
+  color: #2b2b2b;
+  font-family: "Playfair Display", serif;
+}
+
+.filter-details:hover{
+  border: 1px solid black;
+  background-color: #2B2B2B;
+  color: #FFFFFF;
+}
+
+.filter-details:first-child {
+  background-color: #2B2B2B;
+  color: #FFFFFF;
+}
+
+.filter-details:first-child:hover{
+  background-color: #FFFFFF;
+  color: #2B2B2B;
+}
+
+.filter-details:nth-child(3){
+  background-color: #2B2B2B;
+  color: #FFFFFF;
+}
+
+.filter-details:nth-child(3):hover{
+  background-color: #FFFFFF;
+  color: #2B2B2B;
+}
+
+.header-men{
+  padding-top: 40px;
+  max-width: 417px;
+  color: #000000;
+  font-family: "Roboto",sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 59px;
+}
+
